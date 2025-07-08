@@ -39,7 +39,7 @@ comPortRehaStim = 'COM4';  % Change this to your device's COM port
 
 ---
 
-## 🔌 Simulink Integration
+## Simulink Integration
 
 The Simulink model uses a **MATLAB S-Function** called `P24Science`.  
 It receives stimulation parameters and sends them to the stimulator in real time.  
@@ -62,7 +62,7 @@ You must connect your own stimulation decision logic upstream.
 
 ---
 
-## 🧠 Key Functions
+## Key Functions
 
 ### `P24Science.m`
 
@@ -100,7 +100,7 @@ The checksum ensures data integrity.
 ---
 
 
-## 🧯 Troubleshooting
+## Troubleshooting
 
 - **Serial port busy**: Make sure no other program is using the COM port.
 - **MATLAB error about missing functions**: Re-run `SetupPsychtoolbox`.
