@@ -1,9 +1,9 @@
 
 # P24Science - Matlab/Simulink Interface 
 
-This project includes a set of MATLAB functions and a Simulink model developed by the **BioRobotics Group** at the **Center for Automation and Robotics (CAR - CSIC)**. It serves as the **final stage** in a real-time stimulation framework, responsible for sending commands to a neurostimulation device (P24Science, Hasomed) through a serial connection.
+This project includes a set of MATLAB functions and a Simulink model developed by the **BioRobotics Group** at the **Center for Automation and Robotics (CAR - CSIC)**. It serves as the **final stage** in a real-time stimulation framework, responsible for sending commands to an electrical stimulation device (P24Science, Hasomed) through a serial connection.
 
-> ⚠️ **Note**: This module does not include the stimulation decision logic. You must implement and connect that part yourself (e.g., based on other sensors or EMG devices).
+> ⚠️ **Note**: This module does not include the stimulation decision logic. You must implement and connect that part yourself (e.g., based on other sensors or EMG devices). That would make the "Stimulation Current" vector (or any other parameter) change in real-time.
 
 ---
 
@@ -108,7 +108,7 @@ The checksum ensures data integrity.
 
 ---
 
-## 🧑‍🔬 Author
+## 🧑‍🔬 Authors
 
 **BioRobotics Group**  
 Center for Automation and Robotics (CAR)  
