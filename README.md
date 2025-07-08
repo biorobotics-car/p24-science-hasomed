@@ -112,8 +112,11 @@ The checksum ensures data integrity.
 
 **BioRobotics Group**  
 Center for Automation and Robotics (CAR)  
+
 CSIC - Spanish National Research Council
+
 Tania Olmo Fajardo, PhD Student. (tania.olmo@cajal.csic.es)
+
 Miguel Díaz Benito, internship student.
 
 ---
