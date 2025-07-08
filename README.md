@@ -31,7 +31,7 @@ SetupPsychtoolbox
 
 ### 3. Set the Serial Port
 
-Make sure to update the COM port to match your device. In `P24Science.m`, modify:
+Make sure to update the COM port to match your device. To identify the correct COM port, open Device Manager and look under the "Ports (COM & LPT)" section. The device should appear as "USB Serial Port (COMx)". In `P24Science.m`, modify:
 
 ```matlab
 comPortRehaStim = 'COM4';  % Change this to your device's COM port
